@@ -48,7 +48,6 @@ import java.util.Scanner;
 
 public class WaterUsageCalculator {
 
-    // Method to calculate total consumption
     public static int calculateTotal(int morningUsage, int eveningUsage) {
         return morningUsage + eveningUsage;
     }
@@ -62,7 +61,6 @@ public class WaterUsageCalculator {
         System.out.print("Enter evening water usage (litres): ");
         int evening = scanner.nextInt();
 
-        // Calling method and displaying result
         int total = calculateTotal(morning, evening);
         System.out.println("Total Water Consumption: " + total + " litres");
 
